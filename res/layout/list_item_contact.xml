@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/border_bottom_list_gray"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvTelPhone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:drawableLeft="@drawable/in"
+            android:text="  38662809"
+            android:textColor="#00ccff"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvprofil_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/profil_icon"
+                android:textColor="#00ccff"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:id="@+id/layoutStar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+       
+                android:gravity="fill_vertical|top"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="16dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/start" />
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="16dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/start" />
+                <ImageView
+                    android:id="@+id/imageView3ty "
+                    android:layout_width="16dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/start" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tvZoneContact"
+                android:layout_width="wrap_content"
+                android:layout_height="20dip"
+                android:layout_marginLeft="10dp"
+                android:drawableRight="@drawable/wifi"
+                android:textColor="#663300"
+                android:text="pap  "
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tvTelIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/tel_digi"
+                    android:textColor="#00ccff"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/chat_small"
+                    android:textColor="#00ccff"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvNameProfil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="#00ccff"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <com.cache.tontonpalmis.ui.RoundedImageView
+            android:id="@+id/userImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:contentDescription="chat" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="20sp"
+                android:layout_height="20sp"
+                android:layout_marginBottom="5dp"
+                android:background="#FE9900"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tvGain"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="#fff"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="20sp"
+                android:layout_height="20sp"
+                android:layout_marginTop="5dp"
+                android:background="#000000"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tvPerte"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="#fff"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

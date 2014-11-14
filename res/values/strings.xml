@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cach Tonton Palmis</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_profil">ProfilActivity</string>
+    <string name="title_activity_test_simactivity">TestSimactivity</string>
+    <string name="nimero_sim">Nimero SIM ou se:</string>
+    <string name="telheader">38662809 `</string>
+    <string name="logo_natcom">logonat</string>
+    <string name="spot">Jwe epi fe lajan ak minit ki sou telefon ou</string>
+    <string name="point">&#8230;</string>
+    <string name="profilmsg">Kreye Pwofil ou sou CAH Tonton Palmis pou w komanse Jwe :</string>
+    <string name="profilDesc">Pwofil</string>
+    <string name="btnProfilPhoto">Chwazi foto w</string>
+    <string name="nonprofil">Non w sou pwofil ou</string>
+    <string name="zoneprofil">Zon ou</string>
+    <string name="pinprofil">Nimewo PIN *123 ou (Sevis jere m)</string>
+    <string name="btncreerprofil">Kreye pwofil ou</string>
+    <string name="title_activity_main">MainActivity</string>
+	<string name="btnJwe">JWE</string>
+	<string name="sexe_homme">Gason</string>
+	<string name="sexe_femme">Fiy</string>
+</resources>
